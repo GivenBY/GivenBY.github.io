@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.transparent-navbar {
+  background-color: transparent;
+}
+
+.home {
+  /* background: url(img/banner.jpg) no-repeat center/cover; */
+  background-color: #212529;
+  height: 100vh;
+}
+.content-row {
+  height: 100vh;
+}
+h2.subtitle {
+  font-size: 20px;
+}
+h1.title {
+  font-size: 50px;
+}
+.animated-text {
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+.animated-text span {
+  position: relative;
+}
+
+.animated-text span::before {
+  content: "Youtuber";
+  color: #ff7f50;
+  animation: words 20s infinite;
+}
+
+.animated-text span::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: #212529;
+  border-left: 2px solid #ff7f50;
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  0%,
+  20% {
+    content: "Youtuber";
+  }
+  21%,
+  40% {
+    content: "Blogger";
+  }
+  41%,
+  60% {
+    content: "Developer";
+  }
+  61%,
+  80% {
+    content: "Designer";
+  }
+  81%,
+  100% {
+    content: "Gamer";
+  }
+}
+
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}
+li.nav-item {
+  padding: 0 10px;
+}
+.about-title {
+  position: relative;
+  display: block;
+  font-size: 3em; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center-align the text */
+}
+
+/* Add styles for the "Who I Am" label */
+
+.about-label {
+  margin-top: 20px; /* Adjust the spacing as needed */
+  color: crimson;
+  font-size: 1.5em; /* Adjust the font size as needed */
+}
