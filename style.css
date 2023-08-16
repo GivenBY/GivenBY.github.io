@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -8,8 +8,25 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Scrolling */
+
 html {
   scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 .transparent-navbar {
   background-color: transparent;
@@ -35,6 +52,9 @@ h1.title {
   min-width: 280px;
 }
 
+header {
+  background-color: crimson; /* Change to crimson on scroll */
+}
 .animated-text span {
   position: relative;
 }
@@ -116,15 +136,171 @@ li.nav-item {
 .about-title {
   position: relative;
   display: block;
-  font-size: 3em; /* Adjust the font size as needed */
-  margin: 0; /* Remove default margin */
-  text-align: center; /* Center-align the text */
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
 }
 
-/* Add styles for the "Who I Am" label */
-
 .about-label {
-  margin-top: 20px; /* Adjust the spacing as needed */
+  margin-top: 20px;
   color: crimson;
-  font-size: 1.5em; /* Adjust the font size as needed */
+  font-size: 1.5em;
+}
+
+section .about-title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+section .about-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+section .about-title::after {
+  position: absolute;
+  padding-top: 10px;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 0 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+.about .about-title::after {
+  content: "who i am";
+}
+.about-img {
+  height: 350px;
+  width: 350px;
+}
+.profile-img {
+  object-fit: cover;
+}
+
+.column > .animated-text > span::after {
+  background-color: #fff;
+}
+
+.service {
+  background-color: #111;
+}
+
+.service-title {
+  position: relative;
+  display: block;
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+}
+.service {
+  color: #fff;
+  height: 80vh;
+}
+.service .service-title::after {
+  content: "what i provide";
+}
+section .service-title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+section .service-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+section .service-title::after {
+  position: absolute;
+  padding-top: 10px;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 0 5px;
+  background: #111;
+  transform: translateX(-50%);
+}
+.service-content {
+  background-color: #222;
+}
+.service-icon {
+  font-size: 50px;
+  color: crimson;
+}
+.service-content:hover {
+  background-color: crimson;
+  transition: all 0.5s;
+}
+.service-content:hover .service-icon {
+  color: #fff;
+  transition: all 0.5s;
+}
+.skill-title {
+  position: relative;
+  display: block;
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+}
+.skills .skill-title::after {
+  content: "what i know";
+}
+section .skill-title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+section .skill-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #000;
+  transform: translateX(-50%);
+}
+section .skill-title::after {
+  position: absolute;
+  padding-top: 10px;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: crimson;
+  padding: 0 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+.skill-content {
+  background-color: #222;
+}
+.progress {
+  padding: 2px 0px;
 }
