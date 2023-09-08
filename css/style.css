@@ -142,6 +142,18 @@ section {
   color: var(--text-white);
   border-color: var(--primary-color);
 }
+.subtitle {
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  background: var(--primary-color);
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /* 2 Navbar */
 
@@ -225,7 +237,10 @@ section {
   background-attachment: fixed;
   padding: 200px 0 100px 0;
 }
-
+.banner_wrapper h1 span {
+  font-size: 20px;
+  font-weight: 400;
+}
 /* 4 About */
 
 .about_wrapper ul.nav-pills {
@@ -262,9 +277,60 @@ section {
   top: 0;
   right: 0;
 }
+
+.progress-bar {
+  background: var(--primary-color);
+  background: var(--gradient-color);
+}
+.about_wrapper .tab-pane li a {
+  color: var(--text-gray);
+  display: block;
+  font-weight: 400;
+}
+.about_wrapper .tab-pane li {
+  color: var(--text-gray);
+  list-style: none;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
 /* 5 Services */
 
+.services-wrapper .card {
+  background-color: var(--bg-dark-blue);
+}
+
+.services-wrapper .card .card-body {
+  padding: 30px 30px 20px 30px;
+}
+
+.services-wrapper .card .card-body img {
+  width: 15%;
+  height: auto;
+}
+
 /* 6 Portfolio */
+
+.portfolio_wrapper .card {
+  height: 100%;
+  min-height: 350px;
+  overflow: hidden;
+  border: 1px solid var(--bg-white);
+  cursor: pointer;
+  box-shadow: 0 0 16px 4px var(--bg-dark-blue);
+}
+
+.portfolio_wrapper .card span {
+  transition: background-position 4s ease-in-out 0s;
+  width: 100%;
+  height: 100%;
+  background-position: top center;
+  background-size: cover;
+}
+
+.portfolio_wrapper .card:hover span {
+  background-position: bottom center;
+}
 
 /* 7 Contact */
 
