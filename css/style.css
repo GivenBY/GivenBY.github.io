@@ -21,7 +21,7 @@
 
 :root {
   /* Background Color */
-  --primary-color: #fd4766;
+  --primary-color: #ff6868;
   --secondary-color: #0e1525;
   --bg-dark-blue: #091020;
   --bg-white: #fff;
@@ -152,6 +152,7 @@ section {
   background: var(--primary-color);
   background: var(--gradient-text);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -217,7 +218,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--bg-dark-blue);
+  background-color: #2e3236cf;
   -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
   box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
 }
@@ -230,7 +231,7 @@ section {
 /* 3 Banner */
 
 .banner_wrapper {
-  background: url("../images/banner-bg.jpg") no-repeat center/cover;
+  background: #2d3134;
   width: 100%;
   height: auto;
   min-height: 650px;
@@ -242,6 +243,10 @@ section {
   font-weight: 400;
 }
 /* 4 About */
+
+.about_wrapper {
+  background-color: #2e3236a6;
+}
 
 .about_wrapper ul.nav-pills {
   border: 1px solid var(--text-gray);
@@ -296,8 +301,12 @@ section {
 
 /* 5 Services */
 
+.services-wrapper {
+  background-color: #2d3134;
+}
+
 .services-wrapper .card {
-  background-color: var(--bg-dark-blue);
+  background-color: #44494f;
 }
 
 .services-wrapper .card .card-body {
@@ -310,6 +319,10 @@ section {
 }
 
 /* 6 Portfolio */
+
+.portfolio_wrapper {
+  background-color: #2e3236a6;
+}
 
 .portfolio_wrapper .card {
   height: 100%;
@@ -333,6 +346,12 @@ section {
 }
 
 /* 7 Contact */
+
+.contact_wrapper {
+  background-color: #2d3134;
+  display: flex;
+  align-items: center;
+}
 
 .contact_wrapper .contact-info .call_details label {
   color: var(--text-gray);
@@ -361,7 +380,7 @@ section {
 
 /* 8 footer */
 .footer_wrapper {
-  background-color: var(--bg-dark-blue);
+  background-color: #2e3236a6;
   padding: 20px 0;
 }
 .footer_wrapper .footer-logo img {
