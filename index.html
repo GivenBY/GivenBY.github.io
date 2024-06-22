@@ -3,595 +3,333 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suryakant Upadhyay</title>
-
-    <!-- FAVICON -->
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-
-    <!-- Bootstrap 5 CDN Links -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-
-    <!-- Custom File's Link -->
+    <title>Suryakant Upadyay - Software Developer</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive-style.css" />
+    <!-- <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
   </head>
-
-  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
-    <!-- Navbar section -->
-    <header class="header_wrapper">
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img
-              decoding="async"
-              src="images/logo.png"
-              class="img-fluid"
-              alt="logo"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <!-- <span class="navbar-toggler-icon"></span> -->
-            <i class="fas fa-stream navbar-toggler-icon"></i>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav menu-navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-              <li class="nav-item mt-3 mt-lg-0">
-                <a class="main-btn" href="#contact">Hire Me</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- Navbar section exit -->
-
-    <!-- Banner section -->
-    <section class="banner_wrapper" id="home">
+  <body>
+    <section class="hero">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center text-md-start">
-            <h6>WELCOME TO MY WORLD</h6>
-            <h1>
-              I’m <br />Suryakant Upadhyay<br /><span
-                >Java (DSA) | C | C++ | Python | HTML | CSS | JS | WordPress |
-                PHP</span
-              ><br />
-            </h1>
-            <div class="mt-4">
-              <a class="main-btn" href="./resume/resume.docx">Download CV</a>
+        <div class="header">
+          <header class="navbar">
+            <div class="nav-bar">
+              <div class="logo">
+                <img src="img/logo.png" alt="Logo" />
+              </div>
+              <nav>
+                <ul>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+              <div><a href="#" class="btn btn-primary">Download CV</a></div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Banner section exit -->
-
-    <!-- About section -->
-    <section class="about_wrapper" id="about">
-      <div class="container">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-lg-5 mb-4 mg-lg-0">
-            <img
-              decoding="async"
-              src="./images/about.jpg"
-              class="img-fluid rounded-3"
-              alt="About Us"
-            />
-          </div>
-          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
-            <span class="subtitle">My About Details</span>
-            <h1>About Me</h1>
-            <ul
-              class="nav nav-pills justify-content-center justify-content-lg-between mb-3"
-              id="pills-tab"
-              role="tablist"
-            >
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link active"
-                  id="pills-skill-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-skill"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-skill"
-                  aria-selected="true"
-                >
-                  Main Skills
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-award-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-award"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-award"
-                  aria-selected="false"
-                >
-                  Certificates
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-experience-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-experience"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-experience"
-                  aria-selected="false"
-                >
-                  Experience
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link"
-                  id="pills-education-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#pills-education"
-                  type="button"
-                  role="tab"
-                  aria-controls="pills-education"
-                  aria-selected="false"
-                >
-                  Education
-                </button>
-              </li>
-            </ul>
-            <div class="tab-content" id="pills-tabContent">
-              <div
-                class="tab-pane fade show active"
-                id="pills-skill"
-                role="tabpanel"
-                aria-labelledby="pills-skill-tab"
-                tabindex="0"
-              >
-                <div class="single-progress">
-                  <h6>JAVA (DSA)</h6>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 50%"
-                      aria-valuenow="50"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                  <span class="label">50%</span>
-                </div>
-                <div class="single-progress">
-                  <h6>MERN</h6>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 80%"
-                      aria-valuenow="80"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                  <span class="label">80%</span>
-                </div>
-                <div class="single-progress">
-                  <h6>C/C++</h6>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 50%"
-                      aria-valuenow="50"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                  <span class="label">50%</span>
-                </div>
-                <div class="single-progress">
-                  <h6>Python</h6>
-                  <div class="progress">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      style="width: 70%"
-                      aria-valuenow="70"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                  <span class="label">70%</span>
-                </div>
-                
-              </div>
-              <div
-                class="tab-pane fade"
-                id="pills-award"
-                role="tabpanel"
-                aria-labelledby="pills-award-tab"
-                tabindex="0"
-              >
-                <ul class="text-start ps-0">
-                  <li>
-                    <a
-                      href="https://www.coursera.org/account/accomplishments/verify/R9LZA2U35TL3"
-                    >
-                      C for Everyone: Programming Fundamentals - coursera</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.hackerrank.com/certificates/59aeb31c7583"
-                      >Python (Basic) Certificate - HackerRank</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://dtmvamahs40ux.cloudfront.net/ComplementaryCourseCertificate/1997382/original/Suryakant_Upadhyay20221227-63-1jrz6n5.jpg"
-                      >Data Visualization using Python - Great Learning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://unstop.com/certificate-preview/c0ad020b-5dae-4321-b791-76c5589f92c8"
-                      >Joy of Learning: C Programming - Dy Patil International
-                      University</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://unstop.com/certificate-preview/c0ad020b-5dae-4321-b791-76c5589f92c8"
-                      >Participation in Pre-Round (Online) Programming Challenge
-                      - IIT Jodhpur</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="pills-experience"
-                role="tabpanel"
-                aria-labelledby="pills-experience-tab"
-                tabindex="0"
-              >
-                <ul class="text-start ps-0">
-                  <li>
-                    <a href="https://vyaparimitra.com/"
-                      >ColorBlendr<span> - Github Project</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://vyaparimitra.com/"
-                      >SastaGPT<span> - Github Project</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://thelicensingcompany.org/"
-                      >Thelicensingcompany<span> - Client Website</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://qualityengineeringpune.co.in/"
-                      >Qualityengineeringpune<span> - Client Website</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://vyaparimitra.com/"
-                      >Vyaparimitra<span> - Client Website</span></a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="pills-education"
-                role="tabpanel"
-                aria-labelledby="pills-education-tab"
-                tabindex="0"
-              >
-                <ul class="text-start ps-0">
-                  <li>
-                    Dy Patil International University <span>- Pune</span><br />
-                    2022 - 2026
-                  </li>
-                  <li>
-                    SSV Gyan Kendra School CBSE (VI - XII)
-                    <span>- Gujarat</span><br />
-                    2015 - 2021
-                  </li>
-                  <li>
-                    Vinod P. Mishra English Medium School (I - VI)
-                    <span>- Gujarat</span><br />
-                    2009 - 2015
-                  </li>
-                </ul>
-              </div>
+          </header>
+          <div class="header-content">
+            <div class="header-title">
+              <span class="primary-text">I'M</span>
+              <h1>Suryakant Upadhyay</h1>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About section exit -->
-
-    <!-- Services section -->
-    <section id="services" class="services-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center mb-4">
-            <span class="subtitle">What I can do for you</span>
-            <h2>My Awesome Service</h2>
-            <p>
-              What Skills / Services are offered by me,<br
-                class="d-none d-md-block"
-              />
-              I have a lot of experience in these Skills / Services.
+            <p class="header-subtitle">
+              Java (DSA) | Python | MERN | WordPress | PHP
             </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-body text-md-start text-center">
-                <img
-                  decoding="async"
-                  src="./images/service/service-1.svg"
-                  alt="service"
-                  class="img-fluid mb-4"
-                />
-                <h3>Website Development</h3>
-                <p>I can use MERN to make Good Beautiful Websites.</p>
-              </div>
+            <a class="btn btn-primary">Contact Me</a>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
-          
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-body text-md-start text-center">
-                <img
-                  decoding="async"
-                  src="./images/service/service-3.svg"
-                  alt="service"
-                  class="img-fluid mb-4"
-                />
-                <h3>Marketing & Reporting</h3>
-                <p>I can help with Marketing and Ads Posting on Social Media.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-body text-md-start text-center">
-                <img
-                  decoding="async"
-                  src="./images/service/service-5.svg"
-                  alt="service"
-                  class="img-fluid mb-4"
-                />
-                <h3>Marketing & Reporting</h3>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-body text-md-start text-center">
-                <img
-                  decoding="async"
-                  src="./images/service/service-6.svg"
-                  alt="service"
-                  class="img-fluid mb-4"
-                />
-                <h3>Mobile App Development</h3>
-                <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Services section exit -->
-
-    <!-- Portfolio Sectron -->
-    <section id="portfolio" class="portfolio_wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 text-center mb-4">
-            <span class="subtitle">My Complete project</span>
-            <h2>My Latest Project</h2>
-            <p>
-              Display the range and depth of my knowledge through an extensive
-              portfolio of finished projects.<br
-                class="d-none d-md-block"
-              />Every job, from inception to completion, is an indication of my
-              abilities and commitment.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card p-0">
-              <span
-                style="
-                  background-image: url('./images/portfolio/thelicensingcompany.png');
-                "
-              ></span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card p-0">
-              <span
-                style="
-                  background-image: url('./images/portfolio/qualityengineeringpune.png');
-                "
-              ></span>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card p-0">
-              <span
-                style="
-                  background-image: url('./images/portfolio/vyaparimitra.png');
-                "
-              ></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Portfolio Section exit -->
-
-    <!-- Contact section -->
-    <section id="contact" class="contact_wrapper">
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div
-            class="contact-info col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center"
-          >
-            <span class="subtitle">Let's Say Hi</span>
-            <h2>Hire Me.</h2>
-            <div class="row call_details mb-4">
-              <label class="col-sm-3">Call us directly:</label>
-              <div class="col-sm-9 mb-3 mb-lg-2">
-                <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a>
-              </div>
-              <label class="col-sm-3">Contact Email:</label>
-              <div class="col-sm-9 mb-3 mb-lg-2">
-                <a href="mailto:givenby99@protonmail.com"
-                  >givenby99@protonmail.com</a
-                >
-              </div>
-            </div>
-            <form>
-              <div class="mb-4">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Your Name..."
-                  autocomplete="off"
-                />
-              </div>
-              <div class="mb-4">
-                <input
-                  type="number"
-                  class="form-control"
-                  placeholder="Your Phone..."
-                  autocomplete="off"
-                />
-              </div>
-              <div class="mb-4">
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Your Email..."
-                  autocomplete="off"
-                />
-              </div>
-              <div class="mb-4">
-                <input
-                  cols="40"
-                  rows="4"
-                  class="form-control"
-                  id="message"
-                  placeholder="Write a Message..."
-                  autocomplete="off"
-                />
-              </div>
-              <button type="submit" class="main-btn">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact section exit -->
-
-    <!-- Footer section -->
-    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-4 col-md-6 text-center text-md-start">
-            <a href="./" class="footer-logo mb-3 mb-md-0">
-              <img decoding="async" src="./images/logo.png" />
+          <div class="social-buttons">
+            <div class="vertical-line"></div>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              class="social-icon facebook"
+              ><img src="img/icons/Facebook.svg" alt="Facebook"
+            /></a>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              class="social-icon twitter"
+              ><img src="img/icons/Twitter.svg" alt="Twitter"
+            /></a>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              class="social-icon linkedin"
+              ><img src="img/icons/Linkedin.svg" alt="Linkedin" />
             </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <ul
-              class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0"
-            >
-              <li>
-                <a href="https://www.linkedin.com/in/suryakant-upadhyay/"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/Surya_kant2003"><i class="fab fa-twitter"></i> </a>
-              </li>
-              <li>
-                <a href="https://www.hackerrank.com/profile/suryakant_1811"><i class="fab fa-hackerrank"></i></a>
-              </li>
-              <li>
-                <a href="https://codeforces.com/profile/suryakantupadhyay"
-                  ><img width="14px" height="14px" class="text-white"
-                    src="./images/codeforces.svg"
-                  ></img>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-12">
-            <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
-              <p class="mb-0">
-                Copyright © 2023 <a href="./">GivenBY</a>. All Rights Reserved.
-              </p>
-            </div>
+            <a
+              href="https://www.whatsapp.com"
+              target="_blank"
+              class="social-icon whatsapp"
+              ><img src="img/icons/Whatsapp.svg" alt="Whatsapp"
+            /></a>
           </div>
         </div>
       </div>
     </section>
-    <!-- Footer section exit -->
 
-    <!-- Bootstrap 5 JS CDN Links -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <section class="about">
+      <div class="container about-container">
+        <h2 class="about-title">About</h2>
+        <div class="about-content">
+          <div class="horizontal-line"></div>
+          <p>
+            Hi, I'm <span class="highlight">Suryakant Upadhyay</span>, a
+            <span class="highlight">2nd-year B.Tech student</span> at
+            <span class="highlight">DY Patil International University</span>.
+            With a strong passion for
+            <span class="highlight">technology</span> and
+            <span class="highlight">problem-solving</span>, I specialize in
+            <span class="highlight">Java (DSA)</span>, the
+            <span class="highlight">MERN stack</span>, and have proficiency in
+            several programming languages including
+            <span class="highlight">Python, C/C++, </span> and
+            <span class="highlight">PHP</span>.
+          </p>
+        </div>
+        <section class="skills-section">
+          <h1>My Skills</h1>
+          <div class="skills-grid">
+            <div class="skills-container">
+              <div class="skill-card">
+                <img src="img/icons/Python.svg" alt="Python" />
+                Python
+              </div>
+              <div class="skill-card">
+                <img src="img/icons/Nodejs.svg" alt="NodeJs" />
+                NodeJs
+              </div>
+              <div class="skill-card">
+                <img src="img/icons/Ubuntu.svg" alt="Ubuntu" />
+                Ubuntu
+              </div>
+              <div class="skill-card">
+                <img src=img/icons/Git.svg alt="Git" />Git Source Control
+              </div>
+            </div>
 
-    <!-- Custom Js Link -->
-    <script src="./js/main.js"></script>
+            <div class="skills-container">
+              <div class="skill-card">
+                <img src="img/icons/Reactjs.svg" alt="Reactjs" />ReactJs
+              </div>
+              <div class="skill-card">
+                <img src="img/icons/Mongodb.svg" alt="MongoDB" />Mongodb
+              </div>
+              <div class="skill-card">
+                <span>
+                  <img src="img/icons/Html5.svg" alt="Html5" />
+                  <img src="img/icons/CSS3.svg" alt="CSS3" />
+                </span>
+                Html & CSS
+              </div>
+              <div class="skill-card">
+                <img
+                  src="img/icons/Javascript.svg"
+                  alt="Javascript"
+                />JavaScript
+              </div>
+            </div>
+
+            <div class="skills-container">
+              <div class="skill-card">
+                <img src="img/icons/Expreesjs.svg" alt="ExpressJs" />ExpressJs
+              </div>
+              <div class="skill-card">
+                <img src="img/icons/PHP.svg" alt="PHP" />PHP
+              </div>
+              <div class="skill-card">
+                <img src="img/icons/Docker.svg" alt="Docker" />Docker
+              </div>
+            </div>
+
+            <div class="skills-container">
+              <div class="skill-card">
+                <img src="img/icons/MySQL.svg" alt="MySQL" />MySQL
+              </div>
+              <div class="skill-card">
+                <img src="img/icons/Java.svg" alt="Java" />Java
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="portfolio">
+      <div class="portfolio-wrapper container">
+        <h2 class="portfolio-title">
+          <div class="horizontal-line-bar"></div>
+          Portfolio
+          <div class="horizontal-line-bar"></div>
+        </h2>
+        <div class="portfolio-container">
+          <!-- <div class="portfolio-card">
+            <div
+              class="repo-card"
+              data-repo="GivenBy/DrawBoard"
+              data-theme="dark-theme"
+            ></div>
+          </div>
+          <div class="portfolio-card">
+            <div
+              class="repo-card"
+              data-repo="GivenBY/SastaGPT"
+              data-theme="dark-theme"
+            ></div>
+          </div>
+          <div class="portfolio-card">
+            <div
+              class="repo-card"
+              data-repo="GivenBY/GorillaNews"
+              data-theme="dark-theme"
+            ></div>
+          </div> -->
+        </div>
+        <a class="btn btn-secondary" href="https://github.com/GivenBY"
+          >View More</a
+        >
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="experience-wrapper container">
+        <div class="experience-sectioncross">
+          <h2 class="experience-title">Experience</h2>
+          <div class="horizontal-line-bar"></div>
+        </div>
+
+        <div id="timeline-content">
+          <ul class="timeline container">
+            <li class="event" data-date="2024">
+              <h2>Software Developer</h2>
+              <h5>SHOBI Group</h5>
+              <p>
+                I am responsible for designing and developing a comprehensive
+                platform to assist users in finding jobs. This platform will
+                allow users to post their skills, experience, and resumes.
+                Recruiters will be able to filter resumes based on specific
+                skills and experience. Additionally, the platform will rank
+                resumes according to the degree of match between the job
+                requirements and the candidate’s skills and experience.
+              </p>
+              <p>
+                The aim is to enhance the efficiency of the recruitment process
+                by ensuring that highly relevant resumes are prioritized. This
+                will help both job seekers and recruiters achieve their goals
+                more effectively.
+              </p>
+            </li>
+            <li class="event" data-date="2022">
+              <h2>Web Developer</h2>
+              <h5>RadhaKrishna Web Solutions</h5>
+              <p>
+                At Radhkrishna Web Solutions, I am responsible for designing and
+                developing custom websites for clients using a range of
+                technologies.
+              </p>
+              <p>
+                My role involves: - Developing responsive website layouts and
+                user interfaces using HTML, CSS, PHP, and JavaScript - Creating
+                custom features and functionalities based on client requirements
+                using PHP - Automating processes and workflows using Python to
+                improve efficiency and productivity - Collaborating with project
+                managers, designers, and other developers to deliver
+                high-quality solutions within project timelines and budgets
+                Through my work at Radhakrishna Web Solutions, I have gained
+                hands-on experience with a variety of web development tools and
+                technologies, and have contributed to the successful delivery of
+                numerous client projects.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-wrapper container">
+        <h2 class="contact-title">
+          <div class="horizontal-line-bar"></div>
+          Contact Me
+          <div class="horizontal-line-bar"></div>
+        </h2>
+        <div class="contact-details-container">
+          <div class="contact-card">
+            <img
+              src="img/icons/mail-icon.svg"
+              alt="Email"
+              width="30px"
+              height="30px"
+            />
+            <a href="mailto:ivandan@email.com">suryakantupadhyay18@gmail.com</a>
+          </div>
+          <div class="contact-card">
+            <img
+              src="img/icons/phone-icon.svg"
+              alt="Phone"
+              width="30px"
+              height="30px"
+            />
+            <a href="tel:+2015550124">+91 8511944073</a>
+          </div>
+          <div class="contact-card">
+            <img
+              src="img/icons/location-icon.svg"
+              alt="Location"
+              width="30px"
+              height="30px"
+            />
+            <a href="">Pune, Maharashtra</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper container">
+          <h2 class="footer-title">
+            <div class="horizontal-line-bar"></div>
+            <div style="display: flex; gap: 20px; align-items: center">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                class="social-icon facebook"
+                ><img src="img/icons/Facebook.svg" alt="Facebook"
+              /></a>
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                class="social-icon twitter"
+                ><img src="img/icons/Twitter.svg" alt="Twitter"
+              /></a>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                class="social-icon linkedin"
+                ><img src="img/icons/Linkedin.svg" alt="Linkedin" />
+              </a>
+              <a
+                href="https://www.whatsapp.com"
+                target="_blank"
+                class="social-icon whatsapp"
+                ><img src="img/icons/Whatsapp.svg" alt="Whatsapp"
+              /></a>
+            </div>
+            <div class="horizontal-line-bar"></div>
+          </h2>
+        </div>
+      </div>
+      <div class="footer-ending-text">"Thanks for Scrolling"</div>
+    </footer>
   </body>
 </html>
